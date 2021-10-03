@@ -2,5 +2,19 @@
 @section('title', 'Crud')
 @section('content')
 
-<h1>Oi</h1>
+<!--============== MAIN ============== -->
+<main>
+   <!--============== HOME ============== -->
+   <section class="container section section__height" id="home">
+      <h2 class="section__title">Início</h2>
+
+      
+   </section>
+
+   <!--============== TABELA ============== -->
+   <section class="container section section__height" id="table">
+      <h2 class="section__title">Tabela</h2>
+
+   </section>
+</main>
 @endsection
