@@ -167,6 +167,35 @@ img{
 .scroll-header{
    box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
 }
+
+/* =========== Section Inicio ===========*/
+.form__data{
+   padding: 2rem 1rem;
+   background-color: var(--container-color);
+   border-radius: 5px;
+}
+
+.form__title{
+   font-size: var(--big-font-size);
+   position: relative;
+}
+
+.form__title::before{
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   height: 3px;
+   width: 30px;
+   background-color: var(--first-color);
+}
+
+.form__label{
+   font-weight: 600;
+}
+
+
+
 /* =========== MEDIA QUERIES ===========*/
 /* FOR SMALL DEVICES*/
 @media screen and (max-width: 320px){
