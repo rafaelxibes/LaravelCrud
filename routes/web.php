@@ -16,3 +16,7 @@ use App\Http\Controllers\CrudController;
 
 
 Route::get('/', [CrudController::class, 'index']);
+Route::post('/user', [CrudController::class, 'store']);
+Route::delete('/delete{id}', [CrudController::class, 'destroy']);
+Route::get('/edit{id}', [CrudController::class, 'edit']);
+Route::put('/update{id}', [CrudController::class, 'update']);
